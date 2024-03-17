@@ -1,0 +1,21 @@
+.ButtonsWithIOStream{
+
+
+}
+.IOStream{
+
+-fx-font-size:200%;
+
+}
+.ButtonPanel{
+
+
+-fx-background-color: black;
+
+}
+
+.window{
+
+    -fx-background-color: grey;
+
+}
