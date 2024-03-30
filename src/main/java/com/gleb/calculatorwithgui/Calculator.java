@@ -16,6 +16,7 @@ public class Calculator extends Application {
         StreamLine IOLine = new StreamLine();
         ButtonPanel Panel = new ButtonPanel(IOLine.get());
         VBox window = new VBox(IOLine.get(), Panel.get());
+        window.getStyleClass().setAll("window");
         Scene scene = new Scene(window,320, 450);
 
         scene.getStylesheets().addAll(this.getClass().getResource("style.css").toExternalForm());
@@ -26,6 +27,7 @@ public class Calculator extends Application {
     }
 
     public static void main(String[] args) {
+
         launch();
     }
 }

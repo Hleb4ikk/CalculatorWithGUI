@@ -1,9 +1,10 @@
 package com.gleb.calculatorwithgui.MainPane.IOStream;
 
+import javafx.geometry.Insets;
 import javafx.scene.control.TextField;
 
 public class StreamLine {
-    private final TextField IOStream;
+    private TextField IOStream;
 
     public StreamLine(){
 

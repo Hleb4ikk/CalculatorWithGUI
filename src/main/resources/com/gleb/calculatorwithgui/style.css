@@ -1,21 +1,22 @@
-.ButtonsWithIOStream{
+.StreamLine{
+
+    -fx-font-size: 200%;
+    -fx-background-color: #343738;
+    -fx-text-fill:#98a1a6;
 
 
 }
-.IOStream{
+.button{
 
--fx-font-size:200%;
+    -fx-background-color: #494c50;
+    -fx-font-size: 175%;
+    -fx-text-fill: #98a1a6;
 
-}
-.ButtonPanel{
-
-
--fx-background-color: black;
 
 }
 
 .window{
 
-    -fx-background-color: grey;
+    -fx-background-color: #343738;
 
 }
